@@ -46,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17B5C067151199250796DC84 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		17B5C093BC77D33FC29F1553 /* TableSideTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableSideTableView-Prefix.pch"; sourceTree = "<group>"; };
 		17B5C0BA93F55C92B6140CED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		17B5C0FB4096F84CD8A69B4C /* icon_norecord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_norecord.png; sourceTree = "<group>"; };
@@ -153,6 +154,7 @@
 				17B5C806C46D6B0F27C97E40 /* TableSideTableView */,
 				356CC3C4DA0A4A81B55FBBEB /* Pods.xcconfig */,
 				3AF2C258A61442B09C386BE6 /* Pods-Tests.xcconfig */,
+				17B5C067151199250796DC84 /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
