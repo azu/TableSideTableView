@@ -1,4 +1,4 @@
-# What's is
+# これはなに
 
 
 TableViewにScrollViewを入れて、横長表示の何かを作るサンプル
