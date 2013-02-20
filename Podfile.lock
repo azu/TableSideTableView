@@ -1,0 +1,37 @@
+
+PODS:
+- Kiwi (2.0.4)
+- NSDate-Extensions (0.0.1)
+- OCHamcrest (1.9)
+- OCMock (2.0.1)
+- OCMockito (0.23):
+  - OCHamcrest (= 1.9)
+- Overline (0.1.4)
+- Stubbilino (0.1.0)
+- TestPilot (0.0.3):
+  - Kiwi
+  - OCHamcrest
+  - OCMock
+  - OCMockito
+  - Stubbilino (from `git@github.com:itsthejb/Stubbilino.git', branch `feature/osx-framework')
+
+DEPENDENCIES:
+- NSDate-Extensions (from `https://raw.github.com/azu/NSDate-Extensions/master/NSDate-Extensions.podspec')
+- Overline
+- TestPilot
+
+EXTERNAL SOURCES:
+  NSDate-Extensions:
+    :podspec: https://raw.github.com/azu/NSDate-Extensions/master/NSDate-Extensions.podspec
+
+SPEC CHECKSUMS:
+  NSDate-Extensions: 06c4e1f4715883c58d27b4fb99329ed5c0e14d9f
+  Overline: 6704cd462f44cc277ecf50058221a087388b607b
+  Kiwi: 44abe10fc11eb6a9e05d580211abd1f8fdb01260
+  OCHamcrest: f8393efd5a49d91879be573635d6183effacc0ab
+  OCMock: 77a9c4c57af6bf258a537d34cf09abf422affede
+  OCMockito: 2223021dd82697fc536c403d6850d2ed8ffae578
+  Stubbilino: 5d7b7fb12ac0eec1b799da45cb37a9f1e375e56b
+  TestPilot: f24805e1e819927bb3ed82fefa6dabad7b7e1e96
+
+COCOAPODS: 0.16.2
