@@ -45,8 +45,13 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
+    [self drawTimeLabel];
+}
+
+- (void)drawTimeLabel {
+
     [self cleanup];
-    // 0..3.....24
+// 0..3.....24
     for (int i = 0; i < 8; i++) {
         NSDate *date = [NSDate dateByUnit:@{
                 AZDateBuilderUnit.hour : @(i * 3),
@@ -68,6 +73,12 @@
     for (UIView *view in self.subviews) {
         [view removeFromSuperview];
     }
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+
+    [self drawTimeLabel];
 }
 
 @end
